@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/finance_db
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  liquibase:
+    change-log: classpath:db.changelog/main-changelog.yml
+    enabled: true
+
+server:
+  port: 8080
+
+
+jwt:
+  access:
+    secret: g72OlrxnZCg0Xgp18z+W5lR5566GnPrHpCNoVNkvhKk=
+    expiration: 3600000
+
