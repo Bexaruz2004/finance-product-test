@@ -30,7 +30,7 @@ REST API сервис для управления пользователями �
 
 Клонирование и запуск
 bash
-git clone https://github.com/USERNAME/finance-product-test.git
+git clone https://github.com/Bexaruz2004/finance-product-test.git
 cd finance-product-test
 docker-compose up --build
 
